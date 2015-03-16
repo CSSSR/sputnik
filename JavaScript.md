@@ -2,6 +2,8 @@
 
 *Наиболее разумный подход к JavaScript*
 
+*Основано на [airbnb/javascript](https://github.com/airbnb/javascript).*
+
 
 ## <a name='TOC'>Оглавление</a>
 
