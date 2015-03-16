@@ -50,7 +50,7 @@
 ### 3.1. Стартуем проект из [шаблона](https://github.com/CSSSR/csssr-project-template):
 
 * `git clone git@github.com:CSSSR/csssr-project-template.git new-project && cd new-project` - клонируем в папку `new-project` и переход в неё.
-* `rm -rf .git` - удаляем папку `.git`, избавляясь от збыточной истории коммитов шаблона.
+* `rm -rf .git` - удаляем папку `.git`, избавляясь от избыточной истории коммитов шаблона.
 * `git init` - инициализируем Git.
 * `git add -A` - индексируем все файлы.
 * `git commit -m 'chore(project): init project'` - коммитим и комментируем в соответствии с соглашением по коммитоименованию.
