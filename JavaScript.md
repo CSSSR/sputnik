@@ -1068,32 +1068,32 @@
     this._firstName = 'Panda';
     ```
 
-  - Создавая ссылку на `this`, используйте `_this`.
+  - Создавая ссылку на `this`, используйте название от самого класса в camelCase, вместо `self`/`that`/`_this`/`me` и т.п. Навеяно [отсюда](https://gist.github.com/subzey/8115612).
 
     ```javascript
-    // плохо
-    function() {
-      var self = this;
-      return function() {
-        console.log(self);
-      };
-    }
+    function Rocket() {}
 
-    // плохо
-    function() {
-      var that = this;
-      return function() {
-        console.log(that);
-      };
-    }
+    // ...
 
-    // хорошо
-    function() {
+    Rocket.prototype.startMessage = 'Houston, I\'m flying into space!';
+
+    // Плохо
+    Rocket.prototype.start = function () {
       var _this = this;
-      return function() {
-        console.log(_this);
-      };
-    }
+      
+      _this.lightsCameraAction(function () {
+        console.log(_this.startMessage);
+      });
+    };
+
+    // Хорошо
+    Rocket.prototype.start = function () {
+      var rocket = this;
+      
+      rocket.lightsCameraAction(function () {
+        console.log(rocket.startMessage);
+      });
+    };
     ```
 
   - Задавайте имена для функций. Это повышает читаемость сообщений об ошибках кода.
