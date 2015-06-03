@@ -255,6 +255,7 @@
 Полезные ссылки:
 
 - [Документация Stylus](http://learnboost.github.io/stylus/).
+- [Ещё одна документация Stylus](http://stylus-lang.com/).
 - [CSS2Stylus](http://css2stylus.com/) - онлайн препроцессор CSS в Stylus. Для табов в options выбрать Indentation - tab.
 
 
