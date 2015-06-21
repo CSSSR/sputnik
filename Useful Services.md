@@ -21,6 +21,7 @@
 - http://placebox.es/
 - http://uifaces.com/
 - http://randomuser.me/
+- https://placekitten.com/
 
 
 ## Коллекции изображений
