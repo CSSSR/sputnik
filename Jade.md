@@ -9,6 +9,7 @@
 * [naltatis.github.io/jade-syntax-docs](http://naltatis.github.io/jade-syntax-docs/) - ещё одна документация Jade.
 * [jsman.ru/jade/](http://jsman.ru/jade/) - ещё одна документация Jade.
 * [html2jade.org](http://html2jade.org/) - конвертация HTML в Jade и Jade в HTML.
+* [html2jade.aaron-powell.com](http://html2jade.aaron-powell.com/) - и еще один инструмент для конвертации HTML → Jade.
 
 
 ## 1. Назначение папок
