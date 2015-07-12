@@ -41,7 +41,7 @@
 * [Pro Git](http://git-scm.com/book/ru/v2) - официальная книга Git
 * [Магия Git](http://dl.dropboxusercontent.com/u/281916/delete/book.pdf)
 
-#### 2.2.4. Шпоргалки
+#### 2.2.4. Шпаргалки
 * [GitHub Cheatsheet](https://raw.githubusercontent.com/github/training-kit/master/downloads/github-git-cheat-sheet.pdf)
 
 
