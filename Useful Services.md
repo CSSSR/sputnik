@@ -37,7 +37,7 @@
 
 ## Про порядок в PSD
 - http://designbeep.com/2013/01/23/25-highly-detailed-new-psd-files-for-free/
-- http://ilovepsd.ru/
+- http://i-love-psd.ru/
 - http://photoshopetiquette.com/
 - https://medium.com/in-russian/8c4073155f7d
 - http://webdesignerschecklist.com/
