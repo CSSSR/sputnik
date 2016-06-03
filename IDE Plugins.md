@@ -52,15 +52,15 @@ _WS-адепты считают, что их IDE совершенна и не т
 - less-css-mode
 
 ### Atom
-- emmet - ускорение набора HTML и CSS при помощи сниппетов;
-- stylus - подсветка синтаксиса Stylus, также включает в себя сниппеты, но лучше использовать emmet, как наиболее популярное решение для разных редакторов;
-- language-jade - подсветка синтаксиса Jade (Pug);
-- merge-conflicts - merge-tool для разрешения конфликтов в Git;
-- blame - вывод построковой истории изменений для выбранного файла;
-- atom-ungit - подробный просмотр изменений в Git-репозитории (ветки, коммиты, подсветка изменений);
-- git-control - GUI для Git;
-- vim-mode - добавляет возможности Vim;
-- file-icons - заменяет стандартные иконки в файловом дереве на иконки, соответствующие расширениям файлов;
-- pigments - подсвечивает определения цветов в CSS соответствующими цветами;
-- sync-settings - синхронизация настроек редактора через Gist;
-- tabs-to-spaces - заменяет табы на пробелы, если необходимо в текущем проекте.
+- [emmet](https://atom.io/packages/emmet) - ускорение набора HTML и CSS при помощи сниппетов;
+- [stylus](https://atom.io/packages/Stylus) - подсветка синтаксиса Stylus, также включает в себя сниппеты, но лучше использовать emmet, как наиболее популярное решение для разных редакторов;
+- [language-jade](https://atom.io/packages/language-jade) - подсветка синтаксиса Jade (Pug);
+- [merge-conflicts](https://atom.io/packages/merge-conflicts) - merge-tool для разрешения конфликтов в Git;
+- [blame](https://atom.io/packages/blame) - вывод построковой истории изменений для выбранного файла;
+- [atom-ungit](https://atom.io/packages/atom-ungit) - подробный просмотр изменений в Git-репозитории (ветки, коммиты, подсветка изменений);
+- [git-control](https://atom.io/packages/git-control) - GUI для Git;
+- [vim-mode](https://atom.io/packages/vim-mode) - добавляет возможности Vim;
+- [file-icons](https://atom.io/packages/file-icons) - заменяет стандартные иконки в файловом дереве на иконки, соответствующие расширениям файлов;
+- [pigments](https://atom.io/packages/pigments) - подсвечивает определения цветов в CSS соответствующими цветами;
+- [sync-settings](https://atom.io/packages/sync-settings) - синхронизация настроек редактора через Gist;
+- [tabs-to-spaces](https://atom.io/packages/tabs-to-spaces) - заменяет табы на пробелы, если необходимо в текущем проекте.
