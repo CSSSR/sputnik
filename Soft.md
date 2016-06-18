@@ -92,3 +92,6 @@ import urllib2,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14
 
 ### [Open Server](http://open-server.ru/) - платформа для веб-разработчика
 ![Open Server](http://open-server.ru/files/l2.png)
+
+## Для любителей посидеть ночью
+[F.lux](https://justgetflux.com/) - автоматическа подстройка теплоты цвета монитора от времени дня. (НЕ САДИТЕ ЗРЕНИЕ!!!)
