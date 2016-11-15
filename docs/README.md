@@ -2,23 +2,22 @@
 
 ## Оглавление
 - [Awesome Features](./Awesome Features.md)
-- CSS
+- [CSS](./CSS/Readme.md)
   - Methodology
     - [BEM](./CSS/Methodology/BEM.md)
-  - [Styleguide](./CSS/Styleguide.md)
   - [Stylus](./CSS/Stylus.md)
-- [EditorConfig](./EditorConfig.md)
 - [Git](./Git.md)
-- [IDE Plugins](./IDE Plugins.md)
 - [Images](./Images.md)
-- JavaScript
+- [JavaScript](./JavaScript/Readme.md)
   - [Plugins](./JavaScript/Plugins.md)
-  - [Styleguide](./JavaScript/Styleguide.md)
 - Markup
   - [HTML](./Markup/HTML.md)
   - [Jade](./Markup/Jade.md)
 - [Mobile](./Mobile.md)
-- [Soft](./Soft.md)
+- [Soft](./Soft/Readme.md)
+  - IDE & Editors
+    - [Plugins](./Soft/IDE & Editors/Plugins.md)
+    - [EditorConfig](./Soft/IDE & Editors/EditorConfig.md)
 - [Standart](./Standart.md)
 - [Stylus](./Stylus.md)
 - [Usefull Services](./Usefull Services.md)
