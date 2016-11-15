@@ -1,0 +1,37 @@
+{
+  "name": "Sputnik",
+  "version": "1.0.0",
+  "keywords": [
+    "csssr",
+    "standards"
+  ],
+  "scripts": {
+    "docs:clean": "rimraf _book",
+    "docs:prepare": "gitbook install",
+    "init": "gitbook init",
+    "docs:build": "npm run docs:prepare && gitbook build -g reactjs/redux",
+    "docs:watch": "gitbook serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh@github.com:CSSSR/sputnik.git"
+  },
+  "author": "CSSSR <sales@csssr.io> (https://github.com/CSSSR)",
+  "contributors": [
+    "Felix Exter <felixexter@ya.ru> (https://github.com/felixexter)",
+    "Aleksandr Petrov <dzhiriki@gmail.com> (https://github.com/dzhiriki)"
+  ],
+  "bugs": {
+    "url": "https://github.com/CSSSR/sputnik/issues/",
+    "email": "cpt@csssr.com"
+  },
+  "homepage": "https://github.com/CSSSR/sputnik/",
+  "engines": {
+    "node": ">=4.0.0",
+    "npm": ">=2.0.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "gitbook-cli": "^2.3.0"
+  }
+}
