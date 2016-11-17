@@ -1,14 +1,11 @@
 {
   "title": "Sputnik",
   "root": "./docs",
-  "structure": {
-    "summary": "README.MD"
-  },
   "gitbook": ">=3.2.1",
   "plugins": ["edit-link", "prism", "-highlight", "github", "anchorjs"],
   "pluginsConfig": {
     "edit-link": {
-      "base": "https://github.com/CSSSR/sputnik/tree/master",
+      "base": "https://github.com/CSSSR/sputnik/tree/develop",
       "label": "Edit This Page"
     },
     "github": {

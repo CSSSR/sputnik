@@ -6,7 +6,6 @@
 - http://www.fontsquirrel.com/tools/webfont-generator - Генератор веб-шрифтов
 - http://everythingfonts.com/font-face - Генератор веб-шрифтов
 
-
 ## Оптимизация изображений
 - http://www.jpegmini.com/main/shrink_photo - JPEG
 - https://tinypng.com/ - PNG
@@ -14,15 +13,12 @@
 - http://compressor.io/ - JPEG | PNG | GIF | SVG
 - https://cloudconvert.com/ - Конвертация в любой формат
 
-
 ## Заглушки
 - http://loremflickr.com/
 - http://lorempixel.com/
-- http://placebox.es/
 - http://uifaces.com/
 - http://randomuser.me/
 - https://placekitten.com/
-
 
 ## Коллекции изображений
 - http://subtlepatterns.com/ - Паттерны
@@ -33,7 +29,6 @@
 - http://www.gratisography.com/ - Бесплатные изображения
 - http://www.freepik.com/ - Бесплатные изображения
 - http://www.pexels.com/ - Бесплатные изображения
-
 
 ## Про порядок в PSD
 - http://designbeep.com/2013/01/23/25-highly-detailed-new-psd-files-for-free/
