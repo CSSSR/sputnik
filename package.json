@@ -6,11 +6,10 @@
     "standards"
   ],
   "scripts": {
-    "docs:clean": "rimraf _book",
-    "docs:prepare": "gitbook install",
-    "init": "gitbook init",
-    "docs:build": "npm run docs:prepare && gitbook build -g reactjs/redux",
-    "docs:watch": "gitbook serve"
+    "clean": "rimraf _book",
+    "watch": "gitbook install && gitbook serve && cp CNAME _book",
+    "build": "gitbook install && gitbook build -g CSSSR/sputnik",
+    "publish": "npm run build && cp CNAME _book && cd _book && git init && git commit --allow-empty -m 'update book' && git checkout -b gh-pages && touch .nojekyll && git add . && git commit -am 'update book' && git push git@github.com:CSSSR/sputnik gh-pages --force"
   },
   "repository": {
     "type": "git",
