@@ -5,9 +5,39 @@
 ## 1. Устанавливаем Git
 
 ### 1.1. Устанавливаем консольную версию
-Если у вас OS X - в консоли набрать `$ sudo port install git-core +doc +bash_completion +gitweb`.
+#### OS X
+Если у вас OS X и установлены XCode или Command Line Tools, Git уже установлен.
+Чтобы убедиться в этом, неберите в терминале `git --version`.
 
-Если у вас Windows - скачать и устанвоить из [msysgit.github.io](http://msysgit.github.io/).
+```
+$ git --version
+git version 2.9.3 (Apple Git-75)
+```
+
+Если вы хотите установить более новую версию, есть несколько способов:
+
+##### Установка через [Homebrew](http://brew.sh/) (рекомендуемый способ)
+Если вы используете [Homebrew](http://brew.sh/), установите Git, набрав следующую команду в консоли.
+
+```
+$ brew install git
+```
+
+##### Установка через [Git for Mac Installer](https://sourceforge.net/projects/git-osx-installer/files/)
+1. Скачайте [Git for Mac Installer](https://sourceforge.net/projects/git-osx-installer/files/)
+2. Запустите и следуйте инструкциям
+
+#### Windows
+Если у вас Windows - скачайте и установите [msysgit.github.io](http://msysgit.github.io/).
+
+#### Linux
+Если у вас Linux, скорее всего вы знаете, что делать.  
+Если нет, скорее всего вам помогут эти команды:
+
+```
+$ sudo apt-get update
+$ sudo apt-get install git
+```
 
 ### 1.2. По желанию устанавливаем Git клиент с GUI интерфейсом (не обязательно)
 
