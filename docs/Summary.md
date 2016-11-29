@@ -18,6 +18,7 @@
 - [Git](./Git/Readme.md)
   - [Aliases](./Git/Aliases.md)
   - [Cоглашение по именованию](./Git/Convention.md)
+  - [Workflow](./Git/Workflow.md)
 
 - [Soft](./Soft/Readme.md)
   - Редакторы и IDE
