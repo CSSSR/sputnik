@@ -17,6 +17,7 @@
 
 - [Git](./Git/Readme.md)
   - [Aliases](./Git/Aliases.md)
+  - [Cоветы](./Git/Advices.md)
   - [Cоглашение по именованию](./Git/Convention.md)
 
 - [Soft](./Soft/Readme.md)
