@@ -3,9 +3,11 @@
 ## Шрифты
 - http://webfont.ru/ - Бесплатные шрифты
 - http://www.google.com/fonts/ - Шрифты на Google
-- http://www.fontsquirrel.com/tools/webfont-generator - Генератор веб-шрифтов
 - http://everythingfonts.com/font-face - Генератор веб-шрифтов
-
+- http://www.fontsquirrel.com/tools/webfont-generator - Генератор веб-шрифтов
+	Правильная настройка:
+	1. Выбрать режим Expert
+	2. В поле Subsetting выбрать - No subsetting
 
 ## Оптимизация изображений
 - http://www.jpegmini.com/main/shrink_photo - JPEG
