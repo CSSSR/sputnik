@@ -1,24 +1,16 @@
-# Sputnik
+# Методологии
 
-## Оглавление
-- [Awesome Features](/docs/Awesome Features.md)
-- CSS
-  - Methodology
-    - [BEM](/docs/CSS/Methodology/BEM.md)
-  - [Styleguide](/docs/CSS/Styleguide.md)
-  - [Stylus](/docs/CSS/Stylus.md)
-- [EditorConfig](/docs/EditorConfig.md)
-- [Git](/docs/Git.md)
-- [IDE Plugins](/docs/IDE Plugins.md)
-- [Images](/docs/Images.md)
-- JavaScript
-  - [Plugins](/docs/JavsScript/Plugins.md)
-  - [Styleguide](/docs/JavsScript/Styleguide.md)
-- Markup
-  - [HTML](/docs/Markup/HTML.md)
-  - [Jade](/docs/Markup/Jade.md)
-- [Mobile](/docs/Mobile.md)
-- [Soft](/docs/Soft.md)
-- [Standart](/docs/Standart.md)
-- [Stylus](/docs/Stylus.md)
-- [Usefull Services](/docs/Usefull Services.md)
+В CSSSR используются две основные методологии:
+- [BEM](./BEM.md)
+- [CSS Modules](./CSSModules.md)
+
+## Требования к методологиям
+
+- Компонентный подход — верстка должна разделяться на отдельные независимые
+  компоненты
+- Изолированность — каждый компонент должен быть изолирован от других
+  компонентов. Компонент не должен влиять на дочерние компоненты и, наоборот,
+  компонент не должен наследовать стили от родителя.
+- Изменяемость — каждый компонент должен быть настраиваемым. Компонент должен
+  настраиваться явным образом и через какой-либо публичный интерфейс, вид
+  компонента не должен зависеть от его окружения.
