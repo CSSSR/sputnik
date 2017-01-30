@@ -8,3 +8,4 @@
     - [BEM](./CSS/Methodology/BEM.md)
     - [CSS Modules](./CSS/Methodology/CSSModules.md)
 - [JavaScript](./JavaScript/Readme.md)
+  - [Perfomance](./JavaScript/Perfomance.md)
