@@ -7,3 +7,4 @@
   - [Методологии](./CSS/Methodology/Readme.md)
     - [BEM](./CSS/Methodology/BEM.md)
     - [CSS Modules](./CSS/Methodology/CSSModules.md)
+- [JavaScript](./JavaScript/Readme.md)
