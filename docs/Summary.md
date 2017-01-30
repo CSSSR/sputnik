@@ -9,3 +9,4 @@
     - [CSS Modules](./CSS/Methodology/CSSModules.md)
 - [JavaScript](./JavaScript/Readme.md)
   - [Perfomance](./JavaScript/Perfomance.md)
+  - [Testing](./JavaScript/Testing.md)
