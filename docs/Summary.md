@@ -1,13 +1,12 @@
 # Sputnik
 
 ## Оглавление
-- Разметка
-  - [HTML](./Markup/HTML.md)
-  - [Jade](./Markup/Jade.md)
 
+- [HTML](./HTML/Readme.md)
 - [CSS](./CSS/Readme.md)
-  - Методологии
+  - [Методологии](./CSS/Methodology/Readme.md)
     - [BEM](./CSS/Methodology/BEM.md)
+    - [CSS Modules](./CSS/Methodology/CSSModules.md)
   - [Stylus](./CSS/Stylus.md)
 
 - [Изображения](./Images.md)
