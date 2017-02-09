@@ -10,6 +10,7 @@
 - [JavaScript](./JavaScript/Readme.md)
   - [Perfomance](./JavaScript/Perfomance.md)
   - [Testing](./JavaScript/Testing.md)
+  - [Debug](./JavaScript/Debug.md)
   - [ESNext](./JavaScript/ESNext/Readme.md)
     - [ES2015](./JavaScript/ESNext/ES2015.md)
     - [ES2016](./JavaScript/ESNext/ES2016.md)
