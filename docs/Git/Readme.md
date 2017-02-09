@@ -1,13 +1,43 @@
 # Git - система контроля версий
 ![git](http://git-scm.com/images/logo@2x.png)
 
-
 ## 1. Устанавливаем Git
 
 ### 1.1. Устанавливаем консольную версию
-Если у вас OS X - в консоли набрать `$ sudo port install git-core +doc +bash_completion +gitweb`.
+#### macOS
+Если у вас macOS и установлены XCode или Command Line Tools, Git уже установлен.
+Чтобы убедиться в этом, наберите в терминале `git --version`.
 
-Если у вас Windows - скачать и устанвоить из [msysgit.github.io](http://msysgit.github.io/).
+```
+$ git --version
+git version 2.9.3 (Apple Git-75)
+```
+
+Если вы хотите установить более новую версию, есть несколько способов:
+
+##### Установка через [Homebrew](http://brew.sh/) (рекомендуемый способ)
+Если вы используете [Homebrew](http://brew.sh/), установите Git,
+набрав следующую команду в консоли.
+
+```
+$ brew install git
+```
+
+##### Установка через [Git for Mac Installer](https://sourceforge.net/projects/git-osx-installer/files/)
+1. Скачайте [Git for Mac Installer](https://sourceforge.net/projects/git-osx-installer/files/)
+2. Запустите и следуйте инструкциям
+
+#### Windows
+Если у вас Windows - скачайте и установите [msysgit.github.io](http://msysgit.github.io/).
+
+#### Linux
+Если у вас Linux, скорее всего, вы знаете что делать.  
+Если нет, вам помогут эти команды:
+
+```
+$ sudo apt-get update
+$ sudo apt-get install git
+```
 
 ### 1.2. По желанию устанавливаем Git клиент с GUI интерфейсом (не обязательно)
 
@@ -103,13 +133,13 @@ git add -A
 git rebase --continue
 ```
 
-* Если конфликтов больше нет и `reabase` завершился, то на это всё, если конфликты есть, то повторить итерацию.
+* Если конфликтов больше нет и `rebase` завершился, то на этом всё. Если конфликты есть, то повторить итерацию.
 
 ### 3.5. Создаём фичу в отдельной ветке
 
 #### 3.5.1. Создаём ветку
 
-* `git pull --rebase origin master` - обновляем ветку `master` с ключём `--rebase`, чтобы избежать промежуточных коммитов.
+* `git pull --rebase origin master` - обновляем ветку `master` с ключом `--rebase`, чтобы избежать промежуточных коммитов.
 * `git checkout -b feature/<name>` - создаём ветку с `feature/<name>`, где `<name>` - название фичи.
 * Делаем изменения в коде, например, добавляем главную страницу.
 * `git add -A` - индексируем изменения.
