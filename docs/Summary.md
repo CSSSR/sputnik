@@ -1,27 +1,17 @@
 # Sputnik
 
 ## Оглавление
-- Разметка
-  - [HTML](./Markup/HTML.md)
-  - [Jade](./Markup/Jade.md)
 
+- [HTML](./HTML/Readme.md)
 - [CSS](./CSS/Readme.md)
-  - Методологии
+  - [Методологии](./CSS/Methodology/Readme.md)
     - [BEM](./CSS/Methodology/BEM.md)
-  - [Stylus](./CSS/Stylus.md)
-
-- [Изображения](./Images.md)
-
+    - [CSS Modules](./CSS/Methodology/CSSModules.md)
 - [JavaScript](./JavaScript/Readme.md)
-  - [Библиотеки](./JavaScript/Plugins.md)
-
+  - [Perfomance](./JavaScript/Perfomance.md)
+  - [Testing](./JavaScript/Testing.md)
+  - [Debug](./JavaScript/Debug.md)
+  - [ESNext](./JavaScript/ESNext/Readme.md)
+    - [ES2015](./JavaScript/ESNext/ES2015.md)
+    - [ES2016](./JavaScript/ESNext/ES2016.md)
 - [Git](./Git/Readme.md)
-  - [Aliases](./Git/Aliases.md)
-  - [Cоглашение по именованию](./Git/Convention.md)
-
-- [Soft](./Soft/Readme.md)
-  - Редакторы и IDE
-    - [Плагины](./Soft/Editors/Plugins.md)
-    - [EditorConfig](./Soft/Editors/EditorConfig.md)
-
-- [Полезные сервисы](./Useful Services.md)
