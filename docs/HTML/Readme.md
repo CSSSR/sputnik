@@ -108,7 +108,7 @@
   <input type="checkbox" checked="true" />
 
   <!-- Правильно -->
-  <input type="checkbox" />
+  <input type="checkbox" checked />
   ```
 
 ### Ссылки
