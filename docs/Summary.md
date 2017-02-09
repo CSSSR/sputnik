@@ -7,21 +7,13 @@
   - [Методологии](./CSS/Methodology/Readme.md)
     - [BEM](./CSS/Methodology/BEM.md)
     - [CSS Modules](./CSS/Methodology/CSSModules.md)
-  - [Stylus](./CSS/Stylus.md)
-
-- [Изображения](./Images.md)
-
 - [JavaScript](./JavaScript/Readme.md)
-  - [Библиотеки](./JavaScript/Plugins.md)
-
+  - [Perfomance](./JavaScript/Perfomance.md)
+  - [Testing](./JavaScript/Testing.md)
+  - [Debug](./JavaScript/Debug.md)
+  - [ESNext](./JavaScript/ESNext/Readme.md)
+    - [ES2015](./JavaScript/ESNext/ES2015.md)
+    - [ES2016](./JavaScript/ESNext/ES2016.md)
 - [Git](./Git/Readme.md)
-  - [Aliases](./Git/Aliases.md)
-  - [Cоветы](./Git/Advices.md)
-  - [Cоглашение по именованию](./Git/Convention.md)
-
-- [Soft](./Soft/Readme.md)
-  - Редакторы и IDE
-    - [Плагины](./Soft/Editors/Plugins.md)
-    - [EditorConfig](./Soft/Editors/EditorConfig.md)
-
-- [Полезные сервисы](./Useful Services.md)
+  - [Workflow](./Git/Workflow.md)
+  - [Advices](./Git/Advices.md)
