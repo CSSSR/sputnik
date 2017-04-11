@@ -8,11 +8,11 @@
 
   ```javascript
   /* Недопустимо */
-  setTimeout(callback, 86400000);
+  setTimeout(callback, 86400000)
 
   /* Правильно */
-  var MILLISECONDS_IN_DAY = 86400000;
-  setTimeout(callback, MILLISECONDS_IN_DAY);
+  var MILLISECONDS_IN_DAY = 86400000
+  setTimeout(callback, MILLISECONDS_IN_DAY)
   ```
 
 ## Условия
@@ -49,7 +49,7 @@
   /* Правильно */
   function fn(arg) {
     if (!arg) {
-      return;
+      return
     }
 
     // ...
@@ -63,18 +63,18 @@
   /* Недопустимо */
   function fn1(arg) {
     if (argument === 5) {
-      return true;
+      return true
     } else {
-      return false;
+      return false
     }
   }
   function fn2(arg) {
-    var needCheck;
+    var needCheck
 
     if (argument === 5) {
       needCheck === false
     } else {
-      needCheck === true;
+      needCheck === true
     }
 
     if (needCheck) {
@@ -89,7 +89,7 @@
     return argument === 5
   }
   function fn2(arg) {
-    var needCheck = argument !== 5; // обратное условие
+    var needCheck = argument !== 5 // обратное условие
 
     if (needCheck) {
       ...
@@ -104,7 +104,7 @@
   ```javascript
   /* Недопустимо */
   function fn1(arg) {
-    var a;
+    var a
 
     if (argument === 5) {
       a = 7
@@ -113,7 +113,7 @@
     }
   }
   function fn2(arg) {
-    var a = 8;
+    var a = 8
 
     if (argument === 5) {
       a = 7
@@ -122,7 +122,7 @@
 
   /* Правильно */
   function fn(arg) {
-    var a = argument === 5 ? 7 : 8;
+    var a = argument === 5 ? 7 : 8
   }
   ```
 
@@ -133,35 +133,35 @@
   ```javascript
   /* Недопустимо */
   function fn1(arg) {
-    var a;
+    var a
 
     if (arg === 0) {
-      a = 5;
+      a = 5
     } else if (arg === 1) {
       a = 3
     } else if (arg === 2) {
       a = 4
     } else {
-      a = 1;
+      a = 1
     }
   }
   function fn2(arg) {
     switch(arg) {
       case 'A':
-        return someFunc1();
+        return someFunc1()
       case 'B':
-        return someFunc2();
+        return someFunc2()
       case 'C':
-        return someFunc3();
+        return someFunc3()
       default:
-        return someDefaultFunc();
+        return someDefaultFunc()
     }
   }
 
   /* Правильно */
   function fn1(arg) {
-    var values = [5, 3, 4];
-    var a = values[arg] || 1;
+    var values = [5, 3, 4]
+    var a = values[arg] || 1
   }
   function fn2(arg) {
     var fnByArg = {
@@ -171,7 +171,7 @@
     }
     var fn = fnByArg[arg] || someDefaultFunc
 
-    return fn();
+    return fn()
   }
   ```
 
@@ -191,15 +191,15 @@
 
   ```javascript
   /* Недопустимо */
-  var newArr = [];
+  var newArr = []
   for (var i = 0; i < oldArr.length; i++) {
-    var newItem = oldArr[i] + 1;
-    newArr.push(newItem);
-  };
+    var newItem = oldArr[i] + 1
+    newArr.push(newItem)
+  }
 
   /* Правильно */
   var newArr = oldArr.map(function(item) {
-    return item + 1;
+    return item + 1
   })
   ```
 
@@ -209,16 +209,16 @@
 
   ```javascript
   /* Недопустимо */
-  var newArr = [];
+  var newArr = []
   for (var i = 0; i < oldArr.length; i++) {
     if (item % 2 === 0) {
-      newArr.push(item);
+      newArr.push(item)
     }
-  };
+  }
 
   /* Правильно */
   var newArr = oldArr.filter(function(item) {
-    return item % 2 === 0;
+    return item % 2 === 0
   })
   ```
 
@@ -227,14 +227,14 @@
 
   ```javascript
   /* Недопустимо */
-  var sum = 0;
+  var sum = 0
   for (var i = 0; i < oldArr.length; i++) {
-    sum += oldArr[i];
-  };
+    sum += oldArr[i]
+  }
 
   /* Правильно */
   var newArr = oldArr.reduce(function(acc, item) {
-    return acc + item;
+    return acc + item
   })
   ```
 
@@ -244,14 +244,14 @@
 
   ```javascript
   /* Недопустимо */
-  var sum = 0;
+  var sum = 0
   oldArr.forEach(function(item) {
-    sum += item;
+    sum += item
   })
 
   /* Правильно */
   var newArr = oldArr.reduce(function(acc, item) {
-    return acc + item;
+    return acc + item
   })
   ```
 
@@ -263,21 +263,21 @@
   /* Недопустимо */
   var newArr = oldArr.reduce(function(acc, item) {
     if (item % 2 === 0) {
-      return acc;
+      return acc
     }
 
-    var newItem = item * 2;
-    acc.push(newItem);
-    return acc;
-  }, []);
+    var newItem = item * 2
+    acc.push(newItem)
+    return acc
+  }, [])
 
   /* Правильно */
   var newArr = oldArr
     .filter(function(item) {
-      return item % 2 !== 0;
+      return item % 2 !== 0
     })
     .map(function(item) {
-      return item * 2;
+      return item * 2
     })
   ```
 
