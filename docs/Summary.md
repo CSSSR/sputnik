@@ -15,6 +15,7 @@
     - [ES2015](./JavaScript/ESNext/ES2015.md)
     - [ES2016](./JavaScript/ESNext/ES2016.md)
 - [Git](./Git/Readme.md)
+  - [Convention](./Git/Convention.md)
   - [Workflow](./Git/Workflow.md)
   - [Advices](./Git/Advices.md)
   - [Pull Requests](./Git/PullRequests.md)
