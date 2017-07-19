@@ -79,12 +79,9 @@ $ sudo apt-get install git
 
 ### 3.1. Стартуем проект из [шаблона](https://github.com/CSSSR/csssr-project-template):
 
-* `git clone git@github.com:CSSSR/csssr-project-template.git new-project && cd new-project` - клонируем в папку `new-project` и переход в неё.
-* `rm -rf .git` - удаляем папку `.git`, избавляясь от избыточной истории коммитов шаблона.
-* `git init` - инициализируем Git.
-* `git add -A` - индексируем все файлы.
-* `git commit -m 'chore(project): init project'` - коммитим и комментируем в соответствии с соглашением по коммитоименованию.
-* `git remote add origin <url>` - добавляем удалённый репозиторий, где `<url>` - ссылка на git-репозиторий.
+* `git clone --depth 1 git@github.com:CSSSR/csssr-project-template.git new-project && cd new-project` - клонируем в папку `new-project` и переход в неё.
+* `git commit --amend --reset-author -m 'chore(project): init project'` - комментируем в соответствии с соглашением по коммитоименованию.
+* `git remote set-url origin <url>` - указываем удалённый репозиторий, где `<url>` - ссылка на git-репозиторий.
 * `git push origin master` - заливаем проект в удалённый репозиторий в ветку `master`.
 * Если залить не удалось, проект уже не пустой и может содержать `readme.md`, поэтому нужно сделать `rebase`:
 ```
