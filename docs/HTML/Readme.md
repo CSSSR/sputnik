@@ -275,7 +275,7 @@ height. Это позволяет избежать скакания контен
   <label class="radio">
     <input type="radio" />
     <span class="radio__label">Радиокнопка</span>
-  </div>
+  </label>
 
   <div class="radio">
     <input type="radio" id="radio"/>
