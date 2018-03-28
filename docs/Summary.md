@@ -19,3 +19,5 @@
   - [Workflow](./Git/Workflow.md)
   - [Advices](./Git/Advices.md)
   - [Pull Requests](./Git/PullRequests.md)
+- [Полезные ссылки](./Common/UsefulLinks.md)
+- [Плагины для вашего редактора](./Common/CodeEditors.md)
