@@ -237,7 +237,7 @@ describe('Serializer', () => {
 
 ```javascript
 describe('for valid data', () => {
-  it('sends data to a server`, () => {
+  it('sends data to a server', () => {
     spyOn(api, 'sendData')
     const expectedData = { /* то, что мы ожидаем получить в sendData */ }
   
@@ -250,7 +250,7 @@ describe('for valid data', () => {
 })
 
 describe('for invalid data', () => {
-  it('throws an error and does not call "sendData"`, () => {
+  it('throws an error and does not call "sendData"', () => {
     spyOn(api, 'sendData')
   
     expect(() => parseAndSendData(api, invalidData)).toThrowError('some error')
