@@ -3,7 +3,7 @@
 1. [MDN](https://developer.mozilla.org/en-US/) - если вы хотите вспонить/узнать, что такое `this`, чем отличается `bind` от `call`, что такое `clusure` и `hoisting`, да и вообще, что-либо узнать о JS, то смело идите на MDN, это наиболее полная и подробная документация по JS на данный момент.
 2. [Can I Use](https://caniuse.com/) - здесь вы можете узнать поддерживается какое-либо ключевое слово, API, CSS-свойство в том или ином браузере
 3. Узнать как пользоваться Chrome Devtools правильно можно на [developer.chrome.com](https://developer.chrome.com/devtools), а так же в курсе от [CodeShcool](https://www.codeschool.com/courses/discover-devtools)
-4. Event Loop. Для того, чтобы понять асинхронную природу JS можно ознакомиться с данными ресурвами:
+4. Event Loop. Для того, чтобы понять асинхронную природу JS можно ознакомиться с данными ресурсами:
     - [MDN: Event Loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop) - статья на MDN про Event Loop;
     - [Philip Roberts: What the heck is the event loop anyway? | JSConf EU 2014](https://www.youtube.com/watch?v=8aGhZQkoFbQ) - отличный доклад об Event Loop с хорошими примерами;
     - [Tasks, microtasks, queues and schedules](https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/) - статья с хорошими примерами, подробно разъясняющая работу Event Loop с очередью задач;
