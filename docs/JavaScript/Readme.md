@@ -62,7 +62,7 @@
   ```javascript
   /* Недопустимо */
   function fn1(arg) {
-    if (argument === 5) {
+    if (arg === 5) {
       return true
     } else {
       return false
@@ -71,7 +71,7 @@
   function fn2(arg) {
     var needCheck
 
-    if (argument === 5) {
+    if (arg === 5) {
       needCheck === false
     } else {
       needCheck === true
@@ -86,10 +86,10 @@
 
   /* Правильно */
   function fn1(arg) {
-    return argument === 5
+    return arg === 5
   }
   function fn2(arg) {
-    var needCheck = argument !== 5 // обратное условие
+    var needCheck = arg !== 5 // обратное условие
 
     if (needCheck) {
       ...
@@ -106,7 +106,7 @@
   function fn1(arg) {
     var a
 
-    if (argument === 5) {
+    if (arg === 5) {
       a = 7
     } else {
       a = 8
@@ -115,14 +115,14 @@
   function fn2(arg) {
     var a = 8
 
-    if (argument === 5) {
+    if (arg === 5) {
       a = 7
     }
   }
 
   /* Правильно */
   function fn(arg) {
-    var a = argument === 5 ? 7 : 8
+    var a = arg === 5 ? 7 : 8
   }
   ```
 
